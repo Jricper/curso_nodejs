@@ -22,7 +22,6 @@ for(let i=0; i<process.argv.length; i++){
     console.log(`indice: ${i}, value: ${process.argv[i]}`);
 }
 
-let funcion = (param1, param2)=>
-    param1 + param2;
+let funcion = (param1, param2) => param1 + param2;
 
 console.log(`funcion: ${funcion(6,5)}`);
